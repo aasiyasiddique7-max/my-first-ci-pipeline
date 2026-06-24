@@ -1,0 +1,10 @@
+a = []
+a1=int(input("enter"))
+a.append(a1)
+a2=int(input("enter"))
+a.append(a2)
+a3=int(input("enter"))
+a.append(a3)
+print(sum(a))
+a.sort()
+print(a)
